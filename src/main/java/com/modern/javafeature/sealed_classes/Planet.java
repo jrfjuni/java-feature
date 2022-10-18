@@ -1,4 +1,6 @@
-package com.modern.javafeature.version_17.sealed_classes;
+package com.modern.javafeature.sealed_classes;
+
+import java.math.BigDecimal;
 
 public sealed interface Planet extends Celestial
     permits Mercury, Venus, Earth, Mars, Jupiter {
@@ -13,4 +15,6 @@ public sealed interface Planet extends Celestial
     }
 
     String aboutMe();
+
+    BigDecimal size();
 }
