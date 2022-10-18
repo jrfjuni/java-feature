@@ -1,4 +1,4 @@
-package com.modern.javafeature.sealed_classes;
+package com.modern.javafeature.version_17.sealed_classes;
 
 public final class Satellite implements Celestial {
 
